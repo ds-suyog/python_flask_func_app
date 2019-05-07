@@ -38,3 +38,6 @@ def my_form_post():
  
   elif request.form["submit"] == "back":
     return render_template('my-form.html')
+
+if __name__ == '__main__':
+    app.run()
