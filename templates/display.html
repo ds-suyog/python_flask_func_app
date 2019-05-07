@@ -1,0 +1,22 @@
+<html>
+   <body>
+      <form method = "POST">
+        <title><h4>Displaying Result</h4></title>
+		{% if fact_in != '' %}
+          <p>factorial  : factorial of {{fact_in}} is : {{ r_fact }} </p>
+		{% endif %}      	 
+		{% if r_fibo != '' %}
+          <p>fibonacci  : series, {{ r_fibo }}</p>
+		{% endif %}  
+		{% if r_arms != '' %}
+          <p>armstrong  : {{ r_arms }}</p>
+		{% endif %}  
+		{% if r_palin != '' %}
+          <p>palindrome : {{ r_palin }}</p>  
+		{% endif %}  				
+        <p><input type = "submit" name = "submit" value = "back">  	
+      </form>
+   </body>
+</html>
+
+
